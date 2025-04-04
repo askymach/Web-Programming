@@ -12,7 +12,7 @@ function desenhaLinha(array $linha)
     echo "<td>" . $linha["ouro"] . "</td>";
     echo "<td>" . $linha["prata"] . "</td>";
     echo "<td>" . $linha["bronze"] . "</td>";
-    echo "<td>" . $linha["total"] . "</td>";
+    echo "<td>" . $linha["total"] . "</td>"; 
     echo "</tr>";
 }
 
