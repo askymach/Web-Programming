@@ -33,3 +33,5 @@ if ($tipo === 'C') {
 } else {
     echo "Erro! O tipo precisa ser 'A' para arraay ou 'C' para classe";
 }
+
+//http://localhost/lingprogweb/1bim/11_04/exercicios3/index.php?tipo=C&nome=Arthur&sobrenome=Senna&idade=18
