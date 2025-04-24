@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <title>Palpite: Edição Automotiva</title>
+    <title>Jogo da Adivinhação: Carros</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-    <h1>Adivinhe o carro</h1>
+    <h1>Qual carro estou pensando?</h1>
     <p>Escolha um número:</p>
     <ul>
         <?php for ($i = 1; $i <= 8; $i++): ?>
@@ -15,5 +14,4 @@
         <?php endfor; ?>
     </ul>
 </body>
-
 </html>
