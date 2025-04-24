@@ -1,5 +1,5 @@
 <?php
-require_once 'Palpite.php';
+require_once 'models/Palpite.php';
 
 class Jogo
 {
