@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Jogo da Adivinhação: Carros</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <h1>Qual carro estou pensando?</h1>
     <p>Escolha um número:</p>
@@ -14,4 +16,5 @@
         <?php endfor; ?>
     </ul>
 </body>
+
 </html>
