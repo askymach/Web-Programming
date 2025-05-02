@@ -9,14 +9,14 @@ class Jogo
     public function __construct()
     {
         $this->palpites = [
-            new Palpite("Acura Integra Type R", "images/acura.jpg"),
-            new Palpite("BMW M3 GTR", "images/bmw.jpg"),
-            new Palpite("Chevrolet Kadett GSI", "images/kadett.jpg"),
-            new Palpite("DeLorean DCM-12", "images/dcm12.jpg"),
-            new Palpite("Honda Civic EJ1", "images/ej1.jpg"),
-            new Palpite("Audi A3", "images/a3.jpg"),
-            new Palpite("Mitsubishi Eclipse GSX", "images/eclipse.jpg"),
-            new Palpite("Nissan Skyline R33", "images/r33.jpg"),
+            new Palpite("Acura Integra Type R", "imagens/images/acura.jpg"),
+            new Palpite("BMW E36", "imagens/images/bmw.jpg"),
+            new Palpite("Chevrolet Kadett GSI", "imagens/images/kadett.jpg"),
+            new Palpite("DeLorean DCM-12", "imagens/delorean.jpg"),
+            new Palpite("Honda Civic EJ1", "imagens/images/ej1.jpg"),
+            new Palpite("Audi A3", "imagens/images/a3.jpg"),
+            new Palpite("Mitsubishi Eclipse GSX", "imagens/images/eclipse.jpg"),
+            new Palpite("Nissan Skyline R33", "imagens/images/r33.jpg"),
         ];
     }
 
