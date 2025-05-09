@@ -1,14 +1,13 @@
 <?php
 require_once 'models/Carro.php';
 
-$marca = $_POST['marca'];
-$modelo = $_POST['modelo'];
-$ano = $_POST['ano'];
-$foto = $_POST['foto'];
+$marca = $_POST['marca'] ?? '';
+$modelo = $_POST['modelo'] ?? '';
+$ano = $_POST['ano'] ?? '';
+$foto = $_POST['foto'] ?? '';
 
 $carro = new Carro($marca, $modelo, $ano, $foto);
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
